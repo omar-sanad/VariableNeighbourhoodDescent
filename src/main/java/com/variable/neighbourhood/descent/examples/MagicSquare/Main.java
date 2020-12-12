@@ -1,13 +1,13 @@
 package com.variable.neighbourhood.descent.examples.MagicSquare;
 
 /*
-A magic square of order n (3 in this case) is an arrangement of n2 numbers (9 in this case),
+A magic square of order n (3 in this case) is an arrangement of n^2 numbers (9 in this case),
 usually distinct integers, in a square, such that the n numbers in all rows,
 all columns, and both diagonals sum to the same constant (15 in this case).
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("A magic square of order n (3 in this case) is an arrangement of n2 numbers (9 in this case),\n" +
+        System.out.println("A magic square of order n (3 in this case) is an arrangement of n^2 numbers (9 in this case),\n" +
                 "usually distinct integers, in a square, such that the n numbers in all rows,\n" +
                 "all columns, and both diagonals sum to the same constant (15 in this case).");
         Problem problem = new Problem();
